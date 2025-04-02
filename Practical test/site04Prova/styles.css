@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Courier_Prime_Regular"; src: url('fonts/Courier_Prime/CourierPrime-Regular.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Italic";src: url('fonts/Courier_Prime/CourierPrime-Italic.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Bold";src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf');              
+}
+@font-face {
+    font-family: "Poppins"; src: url('fonts/Poppins/Poppins-Light.ttf'); 
+}
+@font-face {
+    font-family: "Poppins_bold"; src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+/* ------------------------------------------------------------------- 
+ * ## background and  colors 
+ * ------------------------------------------------------------------- */
+:root { 
+    --var_background : #efefef;
+    --var_color : #efefef;
+    --var_back_column1 : #647883;
+}
+/* ------------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#banner {
+    background-color: var(--var_background);
+}
+
+#banner h1 {
+    padding: 2%;
+    text-align: left;
+}
+
+#banner img {
+    display: block;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: var(--var_background);
+    margin-top: 20px;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    margin: 25px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#nav ul li a:hover {
+    color: #64bef1;
+}
+
+.content-side {
+    background-color: var(--var_background);
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt-side-left {
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.txt-side-right {
+    width: 70%;
+    text-align: justify;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.article {
+    background-color: var(--var_background);
+    margin-top: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column1 {
+    width: 60%;
+    text-align: justify;
+    padding: 20px;
+    font-size: 16px;
+    background-color: var(--var_back_column1);
+}
+
+.column2 {
+    width: 30%;
+    padding: 20px;
+}
+
+#footer {
+    width: 95%;
+    background-color: var(--var_background);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}

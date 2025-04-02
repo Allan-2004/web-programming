@@ -1,0 +1,45 @@
+.form-feature {
+    background-color: var(--var_background);
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.form-feature p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-feature form {
+    border: solid 1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-feature fieldset {
+    border: none;
+    padding: 0;
+}
+
+.form-feature legend {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.form-feature label,
+.form-feature input,
+.form-feature button {
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#footer {
+    width: 100%;
+    background-color: var(--var_background);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
